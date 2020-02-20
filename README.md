@@ -46,7 +46,14 @@
  Browsers can only read JavaScript objects but JSX in not regular JavaScript object. Thus to enable a browser to read JSX, first , we need to transform JSX file into a jjavascript object using JSX transformers like Bable and then pass it to the browser.
  
  # 9 How differnt is React's ES6 syntx when compared to ES6?
-  
+ Require vs import
+ ```
+ //ES5
+ var React  = require('react');
+ 
+ //ES6 
+ import React from 'react';
+```
 
  
  
