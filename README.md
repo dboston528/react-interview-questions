@@ -45,7 +45,7 @@
  # 8 Why can't browsers read JSX?
  Browsers can only read JavaScript objects but JSX in not regular JavaScript object. Thus to enable a browser to read JSX, first , we need to transform JSX file into a jjavascript object using JSX transformers like Bable and then pass it to the browser.
  
- # 9 How differnt is React's ES6 syntx when compared to ES6?
+ # 9 How different is React's ES6 syntx when compared to ES6?
  Require vs import
  ```
  //ES5
@@ -54,6 +54,70 @@
  //ES6 
  import React from 'react';
 ```
+exporting
+```
+//es5
+module.exports = Component;
 
- 
- 
+//ES6 
+export default Component;
+```
+Component and Function
+```
+//ES5 
+var MyComponent = React.createClass({
+    render: function() {
+        return
+        <h1>Hello World</h1?
+    }
+});
+
+//ES6
+class MyComponent extends React.Component {
+      render(){
+      return <h1>Hello World!</h1> 
+      }
+}
+```
+# 10. How is React different from Angualr
+# 11. What is a component?
+# 12. What is the purpose of render() in React?
+# 13. How can you embed  two or more components into one?
+# 14. What are Props?
+# 15. What is State in React and how is it used?
+# 16. What is th  difference betweem state an props?
+# 17. How can you update the state of a component?
+# 18. What is an arrow function in React? How is it used?
+# 19. What's th difference between stateful and stateless compinents?
+# 20. What are differnt phases of React components lifecycle?
+# 21. Explain the lifecycle methods of React components in detail.
+# 22. What is an even in React? 
+# 23. How do you create an event in React?
+# 24. What are the synthetic events in React?
+# 25. What d you understand by refs in React
+# 26. When should you use Refs?
+# 27. How do you modularize code in React?
+# 28. How are forms create in react?
+# 29. What do you know about controlled and uncontrolled comonents?
+# 30. What are higher order components?
+# 31. What can you do with an HOC(Higher Order Component)?
+# 32. What are pure components?
+# 33. What's the signifigance of keys in React?
+# 34. What are the major problemd with MVC frameworks ?
+# 35. Explain Flux
+# 36. What's Redux
+State manangement
+# 37. What are the three principles that Redux follows?
+# 38. What do you understand about "Single source of truth"
+# 39. List down the components of Redux
+# 40. Show how the data flows through Redux?
+# 41. How are actions defined in redux?
+# 42. What is the role a reducer?
+# 43. What's the significance of Store in Redux
+# 44. How is redux different from flux?
+# 45. What are some of the advanbtages of Redux
+# 46. What is react Router?
+# 47. Why is the switch keyword used in React Router v4?
+# 48. Why do we need a router in React
+# 49. Advatages of React Router.
+# 50. How is React Router different from conventional routing?
