@@ -79,7 +79,7 @@ class MyComponent extends React.Component {
       }
 }
 ```
-# 10. How is React different from Angualr
+# 10. How is React different from Angular
 # 11. What is a component?
 # 12. What is the purpose of render() in React?
 # 13. How can you embed  two or more components into one?
