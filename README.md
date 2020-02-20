@@ -1,5 +1,5 @@
 # 1. What's the difference between Real DOM & Virtual DOM?
- ## Real DOM
+ • Real DOM
  Updates slow
  can directly update HTML
  creates a new DOM if elements update
