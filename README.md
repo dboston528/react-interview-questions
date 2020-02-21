@@ -98,7 +98,7 @@ Components are the building blocks of a React application ui. Components are mea
 The render() method is the only required method in a class component. 
 # 13. How can you embed  two or more components into one?
 # 14. What are Props?
-Props are short for properties.
+Props are short for properties. Keyword used to pass data from one component to another. 
 # 15. What is State in React and how is it used?
 # 16. What is th  difference betweem state an props?
 # 17. How can you update the state of a component?
