@@ -121,3 +121,4 @@ State manangement
 # 48. Why do we need a router in React
 # 49. Advatages of React Router.
 # 50. How is React Router different from conventional routing?
+| Topic | React | Angular | 
