@@ -80,6 +80,7 @@ class MyComponent extends React.Component {
 }
 ```
 # 10. How is React different from Angular
+| Topic | React | Angular |
 # 11. What is a component?
 # 12. What is the purpose of render() in React?
 # 13. How can you embed  two or more components into one?
@@ -121,4 +122,4 @@ State manangement
 # 48. Why do we need a router in React
 # 49. Advatages of React Router.
 # 50. How is React Router different from conventional routing?
-| Topic | React | Angular | 
+ 
