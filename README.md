@@ -82,7 +82,9 @@ class MyComponent extends React.Component {
 # 10. How is React different from Angular
 | Topic | React | Angular |
 # 11. What is a component?
+Components are the building blocks of a React application ui. Components are meant to be small and reusable.
 # 12. What is the purpose of render() in React?
+Each comonent must have a render(). 
 # 13. How can you embed  two or more components into one?
 # 14. What are Props?
 # 15. What is State in React and how is it used?
