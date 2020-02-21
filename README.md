@@ -80,13 +80,25 @@ class MyComponent extends React.Component {
 }
 ```
 # 10. How is React different from Angular
-| Topic | React | Angular |
+React is like the view of a model view controller architecture
+React is performs server-sie rendering.
+React used the virtual DOM
+React uses one-way data binding.
+React uses compile time debugging.
+Facebook created React
+Anglar is a complete MVC
+... client side rendering
+... uses real DOM
+... Two-way data binding
+... runttime debugging
+.... google
 # 11. What is a component?
 Components are the building blocks of a React application ui. Components are meant to be small and reusable.
 # 12. What is the purpose of render() in React?
-Each comonent must have a render(). 
+The render() method is the only required method in a class component. 
 # 13. How can you embed  two or more components into one?
 # 14. What are Props?
+Props are short for properties.
 # 15. What is State in React and how is it used?
 # 16. What is th  difference betweem state an props?
 # 17. How can you update the state of a component?
