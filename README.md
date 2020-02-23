@@ -12,7 +12,7 @@
  DOM manipulation is very easy
  No memory wastage
  
- # What is react?
+ # 2. What is react?
  Frontend Javascript library developed by Facebook in 2011
  It follows the component based approcah which help ehen building reusable UI components
  It is used got developing complex and interactiv web and moile UI
@@ -23,14 +23,14 @@
  It used server side rendering
  It follows uni-directional data flow or data binding.
  
- # 4 List some major advantages of React
+ # 4. List some major advantages of React
  Increases applications preformance
  It can be conveniently used on the client as well as serv er side
  JSX makes code more readable
  Easy to integrate with other frameworks like Mateor and Angular
  Writing UI test cases is easy
  
- # 5 What are react limitations?
+ # 5. What are react limitations?
  It's just a library, not a framework
  The libray is very large and takes time to understand
  It can be a little difficult for a novice to pick up.
@@ -100,6 +100,26 @@ The render() method is the only required method in a class component.
 # 14. What are Props?
 Props are short for properties. Keyword used to pass data from one component to another. 
 # 15. What is State in React and how is it used?
+State of a compinent is an object that holds some information that may change over the lifetime of the compinent.
+Below is an eexample of using state in a component.
+```class User extends React.Component {
+     constructor(props) {
+      super(props)
+      
+      this.state = {
+       message: 'Welcome to React world'
+      }
+     }
+     
+     render() {
+     return (
+     <div>
+       <h1>{this.state.message}</h1>
+     </div>
+     )
+     }
+}
+```
 # 16. What is th  difference betweem state an props?
 # 17. How can you update the state of a component?
 # 18. What is an arrow function in React? How is it used?
