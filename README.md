@@ -100,8 +100,8 @@ The render() method is the only required method in a class component.
 # 14. What are Props?
 Props are short for properties. Keyword used to pass data from one component to another. 
 # 15. What is State in React and how is it used?
-State of a compinent is an object that holds some information that may change over the lifetime of the compinent.
-Below is an eexample of using state in a component.
+State of a component is an object that holds some information that may change over the lifetime of the component.
+Below is an example of using state in a component.
 ```class User extends React.Component {
      constructor(props) {
       super(props)
