@@ -140,7 +140,14 @@ Below is an example of using state in a component.
 # 33. What's the signifigance of keys in React?
 # 34. What are the major problemd with MVC frameworks ?
 # 35. Explain Flux
-# 36. What's Redux
+It's a way of designing applications
+# 36. What's 
+
+
+
+
+
+
 State manangement
 # 37. What are the three principles that Redux follows?
 # 38. What do you understand about "Single source of truth"
