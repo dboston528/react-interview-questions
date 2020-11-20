@@ -120,8 +120,10 @@ Below is an example of using state in a component.
      }
 }
 ```
-# 16. What is th  difference betweem state an props?
+# 16. What is th  difference between state an props?
+Props are used to pass data from parent to child or by the component itself. State is an object used to store props.
 # 17. How can you update the state of a component?
+
 # 18. What is an arrow function in React? How is it used?
 # 19. What's th difference between stateful and stateless compinents?
 # 20. What are differnt phases of React components lifecycle?
